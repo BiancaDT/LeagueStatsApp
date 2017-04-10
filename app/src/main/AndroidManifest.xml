@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.leaguestats">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/lol"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        android:label="League Stats"
+        android:roundIcon="@mipmap/lol"
+        android:supportsRtl="true">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
